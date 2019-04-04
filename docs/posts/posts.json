@@ -1,5 +1,20 @@
 [
   {
+    "path": "posts/2019-04-04-my-first-post/",
+    "title": "My first post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2019-04-04",
+    "categories": [],
+    "preview": "posts/2019-04-04-my-first-post/my-first-post_files/figure-html5/fig1-1.png",
+    "last_modified": "2019-04-04T11:10:29-07:00"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to BRT Blog",
     "description": "Welcome to our new blog, BRT Blog. We hope you enjoy \nreading what we have to say!",
