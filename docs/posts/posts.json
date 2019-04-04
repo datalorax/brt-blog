@@ -28,5 +28,20 @@
     "categories": [],
     "preview": {},
     "last_modified": "2019-04-04T10:39:07-07:00"
+  },
+  {
+    "path": "posts/2019-04-04-another-post/",
+    "title": "Another post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "JT",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2019-04-04",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2019-04-04T11:29:33-07:00"
   }
 ]
