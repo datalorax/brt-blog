@@ -1,0 +1,33 @@
+---
+title: "My first post"
+description: |
+  A short description of the post.
+author:
+  - name: Nora Jones
+    url: https://example.com/norajones
+date: 04-04-2019
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Here's my first post. Check out this amazing figure.
+
+```{r fig1, echo = FALSE, message = FALSE, warning = FALSE}
+library(tidyverse)
+theme_set(theme_minimal(20))
+ggplot(mpg, aes(displ, hwy)) +
+  geom_point(color = "gray70") +
+  geom_smooth()
+```
+
+
+And here's the same fig with `body outset`. I'm going to echo the code this time.
+
+
+
+```{r fig2, layout="l-body-outset", message = FALSE, warning = FALSE}
+ggplot(mpg, aes(displ, hwy)) +
+  geom_point(color = "gray70") +
+  geom_smooth()
+```
