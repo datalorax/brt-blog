@@ -1,0 +1,18 @@
+---
+title: "Another post"
+description: |
+  A short description of the post.
+author:
+  - name: JT
+    url: https://example.com/norajones
+date: 04-04-2019
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This is some great stuff.
